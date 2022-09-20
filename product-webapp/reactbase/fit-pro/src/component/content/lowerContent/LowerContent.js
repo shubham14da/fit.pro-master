@@ -28,7 +28,7 @@ function Booking() {
  console.log(ID,"12121212");
  
   useEffect(() => {
-    fetch(`http://3.128.27.225:8080/appointmentservice/api/appointment/userId/${emailId}`)
+    fetch(`http://3.145.24.231:8080/appointmentservice/api/appointment/userId/${emailId}`)
     .then(res=>res.json())
     .then(response=>setBookData(response))
     .catch(err=>console.log(err));
